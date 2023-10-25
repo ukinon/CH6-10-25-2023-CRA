@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./Menu.css";
 
 function Menu(props) {
-  let [kelas, setClass] = useState(false);
+  let [kelas, setClass] = useState();
   const clickHandler = () => {
     setClass(!false);
   };
