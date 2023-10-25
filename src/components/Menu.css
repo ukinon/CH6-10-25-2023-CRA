@@ -1,0 +1,23 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu button {
+  width: fit-content;
+}
+
+.menu ul {
+  padding-left: 0;
+}
+
+.menu li {
+  display: inline;
+  margin: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+}
